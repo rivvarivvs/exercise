@@ -10,7 +10,7 @@ export default class CreateExercise extends Component {
 
         this.onChangeUsername = this.onChangeUsername.bind(this)
         this.onChangeDescription = this.onChangeDescription.bind(this)
-        this.onChangeDuration = this.onChangeDurantion.bind(this)
+        this.onChangeDuration = this.onChangeDuration.bind(this)
         this.onChangeDate = this.onChangeDate.bind(this)
         this.onSubmit = this.onSubmit.bind(this)
 
@@ -43,6 +43,12 @@ export default class CreateExercise extends Component {
             description: e.target.value
         })
     }
+
+    onChangeDescription(e) {
+        this.setState({
+          description: e.target.value
+        });
+      }
     
     onChangeDuration(e) {
         this.setState({

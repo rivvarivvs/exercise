@@ -59,7 +59,7 @@ onChangeDuration(e) {
     })
 }
 
-onChangeDate(e) {
+onChangeDate(date) {
     this.setState({
         date: date
     })
