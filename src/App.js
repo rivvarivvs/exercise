@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Exercise from '../server/models/exercise';
 
 import Navbar from "./components/navbarjs"
-import ExercisesList from "./components/exercises-list.component";
-import EditExercise from "./components/edit-exercise.component";
-import CreateExercise from "./components/create-exercise.component";
-import CreateUser from "./components/create-user.component";
+import ExercisesList from "./components/exercises-list";
+import EditExercise from "./components/edit-exercise";
+import CreateExercise from "./components/create-exercise";
+import CreateUser from "./components/create-user";
 
 function App() {
   return (
